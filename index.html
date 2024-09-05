@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Rohan Nule's Portfolio - Java Developer | Backend Developer">
+        <title>Rohan Nule's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <header class="hero">
+            <img src="assets/rohan.jpg" alt="Rohan Nule" class="profile-photo">
+            <h1>Rohan Nule</h1>
+            <p>Java Developer | Backend Developer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a certified Java Developer with expertise in Core Java, Spring Boot, MySQL, and Backend Development. My journey in technology has been driven by a passion for creating robust and scalable applications. I enjoy solving complex problems and continuously learning new technologies to enhance my skills. I'm also enthusiastic about collaborating with teams to build innovative solutions and contribute to meaningful projects.</p>
+    <p>In addition to my technical skills, I have a strong interest in personal development and constantly seek opportunities to grow both professionally and personally. I believe in the power of technology to drive positive change and am committed to staying up-to-date with the latest industry trends and advancements.</p>
+
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:rohannule02@gmail.com">rohannule02@gmail.com</a></p>
+                <p>Phone: <a href="tel:9137560316">913-756-0316</a></p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/rohan-nule-542ab6297/" target="_blank" class="social-icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/LinkedIn_icon_2013.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                    <a href="https://github.com/RkNule" target="_blank" class="social-icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" width="24" height="24">
+                    </a>
+                </div>
+            </div>
+        </section>
+    
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Core Java</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Web Technologies</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>PostgresSQL</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Frameworks/Libraries</h3>
+                    <ul>
+                        <li>Springboot</li>
+                        <li>JDBC</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Architecture</h3>
+                    <ul>
+                        <li>Microservices</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Jenkins (CI/CD)</li>
+                        <li>Android</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-card">
+                <h3>Backend Developer Intern</h3>
+                <ul>
+                    <li>Developed Android features using Firebase for a dating app, implementing and testing new functionalities.</li>
+                    <li>Collaborated with a team of two developers to design, implement, and optimize the backend for a school app, ensuring seamless integration with the Android frontend.</li>
+                    <li>Enhanced backend performance and scalability, enabling it to efficiently handle increased user traffic and complex data processing tasks.</li>
+                    <li>Managed and optimized Firebase Realtime Database to ensure low latency and real-time data synchronization.</li>
+                    <li>Resolved technical issues and bottlenecks, improving backend reliability and reducing downtime.</li>
+                    <li>Documented backend processes and API endpoints, providing clear guidelines for future development and maintenance.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Backend Banking System</h3>
+                <p>
+                    The Backend Banking System is a robust and secure application developed using Spring Boot. It offers core banking functionalities like account management, transaction handling, and security features, all backed by a MySQL database.
+                </p>
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>User Account Creation with secure data storage in MySQL.</li>
+                    <li>Seamless credit and debit transactions between accounts.</li>
+                    <li>Balance and account holder name inquiry functionalities.</li>
+                    <li>Automatic transaction summary PDF generation sent via email.</li>
+                    <li>JWT-based authentication for enhanced security.</li>
+                    <li>Interactive API testing and documentation with Swagger UI.</li>
+                </ul>
+                <h4>Future Enhancements:</h4>
+                <ul>
+                    <li>Introduction of user profile management features.</li>
+                    <li>Multi-language support for broader accessibility.</li>
+                </ul>
+                <a href="https://github.com/RkNule/Backend-Banking-System" target="_blank">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Quiz and Question Microservices</h3>
+                <p>
+                    The Quiz and Question Microservices project is a scalable and modular application designed using the microservices architecture. It leverages PostgreSQL for data storage and integrates multiple services using OpenFeign and Eureka Server for service discovery and communication.
+                </p>
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>Service-Oriented Architecture: Each feature is developed as an independent microservice.</li>
+                    <li>Quiz Management: Create, update, and manage quizzes through dedicated services.</li>
+                    <li>Question Handling: Add and manage questions with different types and categories.</li>
+                    <li>User Interaction: Track user attempts, scores, and progress across multiple quizzes.</li>
+                    <li>Reporting and Analytics: Generate reports on quiz performance and user engagement.</li>
+                    <li>Seamless Communication: Microservices interact seamlessly using OpenFeign and are registered with Eureka Server for dynamic service discovery.</li>
+                </ul>
+                <h4>Technologies Used:</h4>
+                <ul>
+                    <li>Spring Boot: For developing each microservice efficiently.</li>
+                    <li>PostgreSQL: As the primary database for storing quiz and question data.</li>
+                    <li>OpenFeign: To simplify HTTP communication between microservices.</li>
+                    <li>Eureka Server: For service registration and discovery, ensuring high availability.</li>
+                </ul>
+                <a href="https://github.com/RkNule/quiz-and-question-microservices" target="_blank">View on GitHub</a>
+            </div>
+            
+            <div class="project-card">
+                <h3>Employee Form</h3>
+                <p>
+                    This project demonstrates the creation of a web-based form for managing employee information. It allows users to input, save, and update employee data, utilizing JsonPowerDB (JPDB) for data storage and management.
+                </p>
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>Employee Data Management: Input, validate, and store employee information, including Employee ID, Name, and Email.</li>
+                    <li>Data Validation: Ensures that user inputs are accurate before saving them to the database.</li>
+                    <li>CRUD Operations: Supports Create, Read, Update, and Delete operations using JsonPowerDB.</li>
+                </ul>
+                <h4>Benefits of JsonPowerDB:</h4>
+                <ul>
+                    <li>Simplified Database Management: Streamlines CRUD operations with an easy-to-use API.</li>
+                    <li>Schema-less Design: Allows for flexible and dynamic data storage.</li>
+                    <li>High Performance: Optimized for fast data retrieval and manipulation.</li>
+                    <li>Ease of Integration: Easily integrates with web applications through HTTP-based API calls.</li>
+                </ul>
+                <h4>Examples of Use:</h4>
+                <ul>
+                    <li>Human Resources: Manage and maintain employee records efficiently.</li>
+                    <li>Corporate Portals: Maintain up-to-date employee information for internal use.</li>
+                </ul>
+                <a href="https://github.com/RkNule/Employee_form" target="_blank">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Supplier API</h3>
+                <p>
+                    The Supplier API is a Spring Boot application designed for managing supplier data. It provides a comprehensive set of APIs for CRUD operations on suppliers, secured with HTTP Basic Authentication, and includes Swagger integration for documentation and testing.
+                </p>
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>CRUD Operations: Perform Create, Read, Update, and Delete operations on supplier data.</li>
+                    <li>Security: Protected with HTTP Basic Authentication and BCrypt password encoding for secure access.</li>
+                    <li>Swagger Integration: Provides interactive API documentation and testing at <a href="http://localhost:8080/swagger-ui.html" target="_blank">Swagger UI</a>.</li>
+                    <li>Data Access: Utilizes Spring Data JPA for efficient database interactions with PostgreSQL.</li>
+                </ul>
+                <h4>Key Components:</h4>
+                <ul>
+                    <li>**Entities:** Defines the Supplier data model.</li>
+                    <li>**Controller:** Manages API requests and responses.</li>
+                    <li>**Service:** Contains business logic and service layer operations.</li>
+                    <li>**Repository:** Handles data access and persistence using Spring Data JPA.</li>
+                </ul>
+                <h4>Setup Instructions:</h4>
+                <ol>
+                    <li>Clone the repository from GitHub: <a href="https://github.com/RkNule/supplier-api" target="_blank">GitHub Repository</a>.</li>
+                    <li>Set up a PostgreSQL database and update `application.properties` with your database credentials.</li>
+                    <li>Run the Spring Boot application.</li>
+                    <li>Access Swagger UI at <a href="http://localhost:8080/swagger-ui.html" target="_blank">http://localhost:8080/swagger-ui.html</a> to interact with the APIs.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certification-list">
+        <div class="certification">
+            <h3>Core Java Training</h3>
+            <p>Internshala - March 3, 2023 to June 17, 2023</p>
+            <p>This certification covers the fundamentals of Core Java, including object-oriented programming concepts, Java syntax, and more. It was completed as part of the training program on Internshala.</p>
+            <a href="https://trainings.internshala.com/view_certificate/cnr12xkl6cu/9qi7tqytpth/" target="_blank">
+                <img src="assets/internshala.jpg" alt="Core Java Training Certificate" width="150">
+                View Certificate
+            </a>
+        </div>
+        <div class="certification">
+            <h3>DSA Course</h3>
+            <p>Udemy - October 23, 2023 to January 4, 2024</p>
+            <p>This course focuses on Data Structures and Algorithms, covering essential concepts and techniques for solving complex problems. It was completed on Udemy and included practical assignments and assessments.</p>
+            <a href="https://www.udemy.com/certificate/UC-fca9ee14-4a43-4a5e-9ddb-c15f3b1a558f/" target="_blank">
+                <img src="assets/udemy.jpg" alt="DSA Course Certificate" width="150">
+                View Certificate
+            </a>
+        </div>
+        <!-- Add more certifications as needed -->
+    </div>
+</section>
+
+<section id="interests">
+    <h2>Interests & Hobbies</h2>
+    <ul>
+        <li>Playing Cricket</li>
+        <li>Listening to Music</li>
+        <li>Learning New Things</li>
+        <li>Playing Badminton</li>
+    </ul>
+</section>
+
+<section id="role-models">
+    <h2>Role Models</h2>
+    <p>I'm inspired by the achievements and leadership qualities of:</p>
+    <ul>
+        <li><strong>Mahendra Singh Dhoni:</strong> Renowned for his exceptional cricketing career and his calm, strategic approach to the game. Dhoni is celebrated for leading the Indian cricket team to numerous victories, including the ICC T20 World Cup and the ICC Cricket World Cup, showcasing remarkable leadership and resilience under pressure.</li>
+        <li><strong>Cristiano Ronaldo:</strong> Celebrated for his dedication, discipline, and incredible achievements in football, Ronaldo is a global icon of excellence and perseverance. His relentless pursuit of excellence and his success in various top football clubs, as well as his contribution to the national team, make him a true inspiration.</li>
+    </ul>
+</section>
+
+
+
+<footer>
+    <p>Contact Information: <a href="mailto:rohannule02@gmail.com">rohannule02@gmail.com</a> | <a href="tel:9137560316">913-756-0316</a></p>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/rohan-nule-542ab6297/" target="_blank" class="social-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/LinkedIn_icon_2013.svg" alt="LinkedIn" width="24" height="24">
+        </a>
+        <a href="https://github.com/RkNule" target="_blank" class="social-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" width="24" height="24">
+        </a>
+    </div>
+</footer>
+        
+    </body>
+</html>
